@@ -1,0 +1,187 @@
+/*Reset css: quitar los valores predeterminados de mi navegador*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*body*/
+body{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    background: url(../img/imagen2.jpg) no-repeat center;
+    background-size: cover;
+}
+h1{
+    color:white;
+    font-size: 60px;
+    letter-spacing: 12px;
+    font-family: 'Sigmar', cursive;
+}
+/* barra de navegación*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005c84;
+    height: 60px;
+}
+
+.navbar a{
+    padding: 0 20px;
+    color:white;
+    text-decoration: none;
+}
+
+
+/* Clase titulo*/
+.titulo{
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family:'Sigmar', cursive;
+}
+
+/* Imagen perfil*/
+.perfil{
+    background-color: #3e95c0;
+    color:white;
+}
+.perfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 58%;
+    border: 10px solid blue;
+}
+#Reseña{
+    font-family: 'Secular One', sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/*Lenguajes*/
+.lenguajes{
+    background-color: rgb(16,16,143);
+    color:white;
+}
+.list-lenguajes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-lenguajes img{
+         width: 150px;
+         height: 150px;
+         border-radius: 60%;
+         border: 10px solid orange;
+         margin: 0 50px;
+}
+
+/* Las siguientes propiedades afectan a las secciones (clase content)*/
+.content{
+    padding: 80px 0;
+}
+
+/*Sección contacto*/
+.contact{  
+    background-color: #78cbf2;
+    text-align: left;
+}
+/* etiqueta article*/
+.contain{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.contact p{
+    max-width: 450px;
+    text-justify: auto;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border: 2px solid white;
+    display:inline-block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Proyectos*/
+#proyectos table{
+    margin: auto;
+}
+#proyectos img{
+    width: 200px;
+    height: 100px;
+}
+table td{
+    padding: 10px;
+
+}
+/*Footer*/
+.footer table{
+    margin:auto;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+.footer p{
+    padding:50px;
+}
+#Imagen-Footer{
+    width: 50px;
+    height: 50px;
+}
